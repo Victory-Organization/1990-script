@@ -10,7 +10,7 @@ _() {
 
   cd "${YEAR}" || exit
   git init
-  echo "**${YEAR}** - Hello Everyone a Geek was Born Here Aashik KJ Geek since windows Vista time I love Windows Vista My friends are Hari,Lubna,Pranow,Alex" \
+  echo "Year **${YEAR}** - Hello Everyone a Geek was Born Here Aashik KJ Geek since windows Vista time I love Windows Vista My friends are Hari,Lubna,Pranow,Alex" \
     >README.md
   git add .
   GIT_AUTHOR_DATE="${YEAR}-01-01T18:00:00" \
