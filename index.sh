@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 _() {
-  YEAR="2009"
+  YEAR="2011"
   echo "Github Username: "
   read -r USERNAME
 
@@ -26,8 +26,8 @@ _() {
   receive security updates until October 2021. " \
     >README.md
   git add .
-  GIT_AUTHOR_DATE="${YEAR}-07-30T18:00:00" \
-    GIT_COMMITTER_DATE="${YEAR}-07-30T18:00:00" \
+  GIT_AUTHOR_DATE="${YEAR}-04-14T18:00:00" \
+    GIT_COMMITTER_DATE="${YEAR}-04-14T18:00:00" \
     git commit -m "${YEAR}"
   git remote add origin "https://github.com/${USERNAME}/${YEAR}.git"
   git branch -M main
